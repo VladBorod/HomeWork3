@@ -8,7 +8,7 @@
 Console.Clear();
 
 Console.Write("Введите пятизначное число для определения полиндромности: ");
-int number;  // = Convert.ToInt32(Console.ReadLine()); 
+int number;   
 
 while (true)
 {
