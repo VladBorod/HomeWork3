@@ -22,8 +22,8 @@ if (number < 0)
 int CubeCalculation(int number)
 {
     int count = 1;
-    int cubeCulc = 1;
-    while (count < number)
+    int cubeCulc = 0;
+    while (count <= number)
     {
         cubeCulc = number * number * number;
         Console.WriteLine($"{number} CUBE: {cubeCulc}\n");
